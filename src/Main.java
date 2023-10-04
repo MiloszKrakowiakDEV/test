@@ -1,6 +1,8 @@
 import java.sql.SQLOutput;
 import java.util.Scanner;
 
+import static jdk.internal.org.jline.utils.Colors.s;
+
 public class Main {
     public static void main(String[] args) {
         System.out.println(12);
@@ -21,5 +23,8 @@ public class Main {
         System.out.printf("Wynik mnożenia liczby %.2f i liczby %.2f to: %.2f \n", number1, number2, result);
 
         System.out.println("Wynik mnożenia liczby " + number1 + " oraz liczby " + number2 + " to " + result);
+        System.out.println("Czy numer pierwszy jest większy od 0? " + (number1 > 0) + "!");
+        boolean warunek = number1 == number2;
+        System.out.printf("Czy numer pierwszy jest równy numerowi drugiemu? %B!", warunek);
     }
 }
