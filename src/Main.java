@@ -18,6 +18,8 @@ public class Main {
         System.out.println(number1 + number2);
         double result = number1 * number2;
         System.out.println("Wynik mnożenia to: " + result);
-        System.out.printf("Wynik mnożenia to: %.2f", result);
+        System.out.printf("Wynik mnożenia liczby %.2f i liczby %.2f to: %.2f \n", number1, number2, result);
+
+        System.out.println("Wynik mnożenia liczby " + number1 + " oraz liczby " + number2 + " to " + result);
     }
 }
